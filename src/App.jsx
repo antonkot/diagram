@@ -72,7 +72,7 @@ const App = () => {
   }, [DataBase]);
 
   return (
-    <Router>
+    <Router basename="/diagram/">
       <Routes>
         {/* ✅ Страница авторизации (входа) */}
         <Route
